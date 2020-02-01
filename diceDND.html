@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type"text/css" href="css/styles.css">
+    <title>Diceatron Rollers</title>
+  </head>
+  <body>
+
+    <div id="topBar">
+      <ul class="nav nav-tabs nav-fill">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="diceDND.html">DND</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="diceWoD.html">WoD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">About</a>
+    </li>
+    </div>
+
+    <div class="mainBodyAbout">
+
+      <div class="divider1">
+
+        <div class="info">
+
+          <div class="infoText">
+            <p>DND uses a variety of dice, entering the numbers into the blanks
+              as labeled below:
+            </p>
+            <div class="pairedLists">
+              <ul>
+                <li>number  &nbsp&nbsp&nbsp&nbsp&nbsp-  &nbsp&nbsp&nbsp&nbsp&nbsp    the number of that die you wish to roll.</li>
+                <li>modifiers    &nbsp&nbsp&nbsp&nbsp-  &nbsp&nbsp&nbsp&nbsp&nbsp    a number to add to the results of the chosen dice.</li>
+              </ul>
+
+            </div>
+
+          </div>
+        </div>
+<div class="tricolum">
+
+  <div class="dice">
+    <p class="diceLabels">Dice# &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Modifier</p>
+    <div class="diceInput">
+      <input type="number" name="d4" class="shortImputField">
+      <img src="https://www.wizards.com/dnd/dice/images/d4a.jpg"
+      width="38" height="37" border="0" alt="d4" name="d4"
+      onmouseout="MM_swapImgRestore()"
+      onmouseover="MM_swapImage('document.d4','document.d4','images/d4b.jpg')">
+      <input type="number" name="d4mod" class="shortImputField">
+    </div>
+    <div class="diceInput">
+      <input type="number" name="d6" class="shortImputField">
+      <img src="https://www.wizards.com/dnd/dice/images/d6a.jpg"
+      width="38" height="37" border="0" alt="d6" name="d6"
+      onmouseout="MM_swapImgRestore()"
+      onmouseover="MM_swapImage('document.d6','document.d6','images/d6b.jpg')">
+      <input type="number" name="d6mod" class="shortImputField">
+    </div>
+    <div class="diceInput">
+      <input type="number" name="d8" class="shortImputField">
+      <img src="https://www.wizards.com/dnd/dice/images/d8a.jpg"
+      width="38" height="37" border="0" alt="d8" name="d8"
+      onmouseout="MM_swapImgRestore()"
+      onmouseover="MM_swapImage('document.d8','document.d8','images/d8b.jpg')">
+      <input type="number" name="d8mod" class="shortImputField">
+    </div>
+    <div class="diceInput">
+      <input type="number" name="d10" class="shortImputField">
+      <img src="https://www.wizards.com/dnd/dice/images/d10a.jpg"
+      width="38" height="37" border="0" alt="d10" name="d10"
+      onmouseout="MM_swapImgRestore()"
+      onmouseover="MM_swapImage('document.d10','document.d10','images/d10b.jpg')">
+      <input type="number" name="d10mod" class="shortImputField">
+    </div>
+    <div class="diceInput">
+      <input type="number" name="d12" class="shortImputField">
+      <img src="https://www.wizards.com/dnd/dice/images/d12a.jpg"
+      width="38" height="37" border="0" alt="d12" name="d12"
+      onmouseout="MM_swapImgRestore()"
+      onmouseover="MM_swapImage('document.d12','document.d12','images/d12b.jpg')">
+      <input type="number" name="d12mod" class="shortImputField">
+    </div>
+    <div class="diceInput">
+      <input type="number" name="d20" class="shortImputField">
+      <img src="https://www.wizards.com/dnd/dice/images/d20a.jpg"
+      width="38" height="37" border="0" alt="d20" name="d20"
+      onmouseout="MM_swapImgRestore()"
+      onmouseover="MM_swapImage('document.d20','document.d20','images/d20b.jpg')">
+      <input type="number" name="d20mod" class="shortImputField">
+    </div>
+    <div class="diceInput">
+      <input type="number" name="d%" class="shortImputField">
+      <img src="https://www.wizards.com/dnd/dice/images/d100a.jpg"
+      width="38" height="37" border="0" alt="d100" name="d100"
+      onmouseout="MM_swapImgRestore()"
+      onmouseover="MM_swapImage('document.d100','document.d100','images/d100b.jpg')">
+      <input type="number" name="d%mod" class="shortImputField">
+    </div>
+    <div class="rollButton">
+      <input type="submit" value="Roll">
+    </div>
+  </div>
+
+  <div class="diceRules">
+    <h4><em>Dice Rules</em></h4>
+    <div class="aDiceRule">
+      <label class="container">Natural 20s count for 40
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+    </div>
+    <div class="aDiceRule">
+    <label class="container">Natural 1s count for -20
+      <input type="checkbox" checked="checked">
+      <span class="checkmark"></span>
+    </label>
+    </div>
+  </div>
+
+
+</div>
+
+
+      </div>
+      <div class="results">
+        <div class="rollResult">
+          <p>Functionality not yet included, but the results of rolls would be
+            displayed here.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+
+  <div id="footer">
+  <footer>
+    <p>Created by: Neils Duncan</p>
+    <p>Github: <a href="https://github.com/neilsduncan/CS260-CreativeP.git"> here</a></p>
+    <p>Copyrighted content used for educational purposes.</p>
+  </footer>
+  </div>
+
+</html>
